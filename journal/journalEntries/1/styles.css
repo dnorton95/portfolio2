@@ -195,7 +195,7 @@ body {
     border-color: orangered;
     border-radius: 15px;
     height: 300px;
-    width: auto;
+    max-width: 300px;
 }
 
 /* For mobile phones */
