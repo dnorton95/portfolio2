@@ -236,11 +236,12 @@ h2 {
         font-size: 60px;
     }
     .photoAlbum {
+        margin-top: -50px;
         height: auto;
     }
     .picture {
         max-height: 270px;
-        max-width: 400px;
+        max-width: 150px;
     }
     .articleBody {
         flex-direction: column;
@@ -285,8 +286,8 @@ h2 {
         height: 500px;
     }
     .picture {
-        max-height: 350px;
-        max-width: 600px;
+        max-height: 150px;
+        max-width: 300px;
     }
     .selectors {
         display: flex;
