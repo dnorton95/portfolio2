@@ -181,3 +181,49 @@ a {
     border-style: double;
     border-color: orange;
   }
+
+  /* For mobile phones */
+@media only screen and (max-width: 1024px) {
+    .webpage {
+        flex-direction: column;
+        height: auto;
+    }
+    .sidebar, .container {
+        width: 100%;
+    }
+    .sidebarImg {
+        display:none;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .backbtn {
+        margin-top: 100px;
+    }
+    .portfolios {
+        font-size: 40px;
+    }
+    .allarticles {
+        grid-template-columns: 1fr;
+    }
+    .projectContainer {
+        height: auto;
+        padding: 20px;
+    }
+    .projectTitle {
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .projectSummary {
+        font-size: 14px;
+    }
+    .footer {
+        padding: 10px;
+    }
+    #myBtn {
+        font-size: 24px;
+    }
+}

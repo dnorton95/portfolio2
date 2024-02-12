@@ -197,3 +197,73 @@ body {
     height: 300px;
     width: auto;
 }
+
+/* For mobile phones */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        font-size: 24px;
+    }
+    .articleContainer {
+        padding: 5%;
+    }
+    .article {
+        padding: 5%;
+    }
+    .articleTitle {
+        font-size: 28px;
+    }
+    .articleText {
+        font-size: 14px;
+    }
+    .big {
+        font-size: 16px;
+    }
+    .imagebar {
+        font-size: 20px;
+    }
+    .imagespan {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .image {
+        height: 80px;
+    }
+    .small {
+        font-size: 8px;
+    }
+}
+
+/* For iPads */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .navbar {
+        font-size: 32px;
+    }
+    .articleContainer {
+        padding: 10%;
+    }
+    .article {
+        padding: 10%;
+    }
+    .articleTitle {
+        font-size: 36px;
+    }
+    .articleText {
+        font-size: 16px;
+    }
+    .big {
+        font-size: 20px;
+    }
+    .imagebar {
+        font-size: 24px;
+    }
+    .imagespan {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .image {
+        height: 100px;
+    }
+    .small {
+        font-size: 10px;
+    }
+}
