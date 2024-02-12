@@ -265,12 +265,12 @@ h2 {
     }
 
     h1 {
-        font-size: 150%;
+        font-size: 60px;
     }
 
     h2 {
         font-size: 30px;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .intro {
