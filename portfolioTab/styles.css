@@ -1,0 +1,183 @@
+@font-face{
+    font-family: intro;
+    src:url(fonts/CameraObscuraDEMO.otf)
+}
+
+@font-face {
+    font-family: magicRetro;
+    src: url(fonts/MagicRetro.ttf);
+}
+
+@font-face {
+    font-family: Midway;
+    src: url(fonts/Midway.otf);
+}
+
+body {
+    margin: 0;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.grow:hover { 
+transform: scale(1.02); 
+}
+
+.grow2 { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.grow2:hover { 
+transform: scale(1.10); 
+}
+
+.glow {
+    transition: text-shadow 0.3s ease;
+}
+
+.glow:hover {
+    text-shadow: 0 0 100px yellow; /* Add text glow effect on hover */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.webpage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 1300px;
+}
+
+.sidebar{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    flex-direction: row;
+}
+
+.sidebarImg {
+    height: 108%;
+    width: 100%;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+.header {
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -80px;
+    margin-top: -60px;
+}
+
+.backbtn {
+    font-size: 20px;
+    flex: 1;
+    margin-top: -90px;
+    padding-left: 20px;
+    color: orange;
+    font-family: midway;
+}
+
+.backbtn:hover {
+    text-decoration: underline;
+}
+
+.portfolios {
+    font-family: midway;
+    font-size: 80px;
+    color: orangered;
+}
+
+.empty {
+    flex: 1;
+}
+
+.allarticles {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    grid-template-rows: auto auto; /* Two rows */
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: wheat;
+    height: 100%;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+    border-color: orangered;
+    border-width: 5px;
+    border-radius: 25px;
+    height: 120px;
+    padding: 25px;
+    background-image: url(assets/orange.jpeg) ;
+}
+
+
+.glow {
+    transition: text-shadow 0.3s ease;
+}
+
+.glow:hover {
+    text-shadow: 0 0 100px yellow; /* Add text glow effect on hover */
+}
+
+.projectTitle {
+    font-size: 30px;
+    margin-top: -30px;
+    margin-bottom: -35px;
+    font-family: magicRetro;
+    line-height: 30px;
+    color:wheat;
+    text-shadow: 2px 2px 2px orange;
+}
+
+.projectSummary {
+    font-family: intro;
+    font-size: 15px;
+    padding-bottom:10px;
+    color:wheat;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#myBtn {
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: wheat;
+    color: orange; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 12px; /* Rounded corners */
+    font-size: 30px; /* Increase font size */
+    font-family: magicRetro;
+  }
+  
+  #myBtn:hover {
+    border-style: double;
+    border-color: orange;
+  }

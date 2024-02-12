@@ -1,0 +1,64 @@
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    background-color: wheat;
+}
+
+.webpage {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-family: 'Bungee Hairline', sans-serif;
+
+}
+
+.header {
+    background-color: burlywood;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-family: 'Bungee Hairline', sans-serif;
+}
+
+#orders {
+    background-color: goldenrod;
+    display: flex;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+}
+
+#beer {
+    border-style: solid;
+    background-color: brown;
+    color: burlywood;
+    border-radius: 1cap;
+    padding: 10px;
+}
+
+#price {
+    border-style: solid;
+    border-radius: 1cap;
+    padding: 10px;
+}
+
+#img {
+    border-style: solid;
+    padding: 2vw;
+    background-color: cornflowerblue;
+    border-radius: 1cap;
+    padding: 10px;
+}

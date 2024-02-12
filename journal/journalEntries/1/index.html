@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar grow">
+            <a class="back" href="../../index.html">Back!</a>
+        </div>
+        <div class="articleContainer">
+            <div class="article">
+                <h1 class="articleTitle">The Art of the Box</h1>
+                <p>It's helpful to know that <em>everything on a webpage is inside of a box</em>. What do I mean by this? Well, for example, this text is inside a box that I created called "Article", which is inside a box labeled "Article Container", which is inside a box labeled "Webpage Container" which is inside a box labeled "Body". Are you confused yet? Because that would be normal, but we'll round this point out, I promise. I'm just going to use some non-traditional terminology to help you get there with me!</p>
+                <p>To help us get there together, I want you to imagine that you're building a house. In order to build that house, we'll need a builder, a painter, and an electrician. The builder frames out the house, the painter makes it look fun and interesting, and the electrician makes sure that when you flip the light switch, the light comes on!</p>
+                <p class="big">Let's get started!</p>
+            </div>
+        </div>
+    </div>
+    <div class="imagebar">
+        <p>Meet Your Employees!</p>
+        <div class="imagespan">
+            <p>Hayden<img class="image grow2" id="hayden" src="assets/hayden.PNG" alt="hayden"></p>
+            <p>Chris<img class="image grow2" id="chris" src="assets/chris.PNG" alt ="chris"></p>
+            <p>Jesse<img class="image grow2" id="jesse" src="assets/jesse.PNG" alt="jesse"></p>
+        </div>
+        <p class="small">Psst... Click on any of the characters to get a quick introduction!</p>
+    </div>
+    <div id="customAlert" class="custom-alert">
+        <div class="custom-alert-content">
+            <span id="alertMessage"></span>
+            <button id="closeAlert">X</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="articleContainer">
+            <div class="article">
+                <h2 class="articleTitle">Hayden (HTML)</h2>
+                <p>Congratulations, you hired your first employee! Their name is Hayden! Hayden is the best framer you could have hired, you just have to tell them what to do and they'll do it!</p>
+                <p>Hayden loves to build walls to make sure everything is compartmentalized perfectly inside the house. He prefers to call walls "Dividers" though, or even better "divs" and to help Chris, he likes to name those walls using classes!</p>
+                <p>What room do you want Hayden to build first? The <strong>kitchen, living room, bathroom, </strong> or <strong> bedroom?</strong></p>
+                <input type="text" id="roomInput" placeholder="Enter room name">
+                <button onclick="showImage()">Submit</button>
+                <div id="roomImage"></div>
+        </div>
+    </div>
+    <div class="imagebar">
+        <p>Not quite what you expected that to look like?</p>
+        <div class="articleText">
+            <p>That's normal! Remember, these are just the bones of the house. Houses don't make a lot of sense visually when they're just framework.</p>
+            <p>That being said, take a minute to look those rooms over! Notice how everything we could possibly want inside the room is divided up into boxes that contain other boxes? For example, the knife is inside a box labeled cutting board, the cuttingboard is inside a box labeled counters, counters are inside a box labeled counterspace, counterspace is inside a box labeled floor, floor is inside a box labeled walls, and walls are inside a box labeled kitchen.</p>
+            <p>But something's wrong! Until things are colored and given properties, none of these boxes mean anything at all!</p>
+            <p>Hayden, like all good builders, can technically paint and design the space, but that's not their job, so it's better to pass this part of the job off to Chris!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<div class="bedroom">
+    <div class="walls">
+        <div class="floor">
+            <div class="sideTable">
+                <div class="lamp"></div>
+            </div>
+            <div class="bed">
+                <div class="sheet">
+                    <div class="pillow"></div>
+                    <div class="pillow"></div>
+                </div>
+                <div class="duvet"></div>
+            </div>
+            <div class="sideTable">
+                <div class="lamp"></div>
+            </div>
+        </div>
+    </div>
+</div>

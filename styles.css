@@ -188,3 +188,68 @@ h2 {
     height: 5vw;
     width: auto;
 }
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    .intro {
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .headshot {
+        height: 200px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .col1 {
+        max-width: none;
+        margin-right: 0;
+    }
+    .midBanner {
+        font-size: 40px;
+    }
+    .icon {
+        height: 70px;
+    }
+    .footer {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: auto;
+    }
+    .newJournal, .socialLinks {
+        font-size: 4vw;
+    }
+    .socialicon {
+        height: 4vw;
+    }
+}
+
+/* For tablet devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .headshot {
+        height: 250px;
+        width: 250px;
+    }
+    .midBanner {
+        font-size: 50px;
+    }
+    .icon {
+        height: 80px;
+    }
+    .newJournal, .socialLinks {
+        font-size: 3vw;
+    }
+    .socialicon {
+        height: 3vw;
+    }
+}
+
+/* For larger screens */
+@media only screen and (min-width: 1025px) {
+    .headshot {
+        height: 270px;
+        width: 270px;
+    }
+}

@@ -1,0 +1,86 @@
+* {
+    font-family: 'Mystery Quest', system-ui;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+    width:100%;
+    height: 150px;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color:skyblue;
+}
+
+.headerLogo {
+    color: rebeccapurple;
+    text-shadow: 4px 4px aquamarine;
+    font-size:50px;
+    padding-left: 20px;
+}
+
+.headerText {
+    color: aquamarine;
+    text-shadow: 2px 2px rebeccapurple;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.webpage {
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding-top: 100px;
+    background-image: url('space.jpeg');
+    background-size: cover;
+    height: 600px;
+}
+
+.eightball {
+    background-color: darkblue;
+    color: white;
+    width:200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: rebeccapurple;
+    border-width: 5px;
+    border-radius: 50%;
+    padding:20px;
+}
+
+.answerIs {
+    text-shadow: 2px 2px violet;
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: blue;
+    padding: 5px;
+    width: 200px;
+}
+
+.shakeBtn{
+    margin-top: 20px;
+    background-color: blueviolet;
+    color: aquamarine;
+    border-radius: 50%;
+    padding:6px;
+    box-shadow: 4px 4px 4px 4px black;
+
+}

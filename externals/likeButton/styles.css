@@ -1,0 +1,103 @@
+* {
+    font-family: 'Balsamiq Sans', sans-serif;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.border {
+    border-style: solid;
+}
+.container {
+    width: 800px;
+    padding-left: 200px;
+}
+.navBar {
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+}
+
+.feedTitle {
+    text-align: center;
+}
+
+.userBox {
+    width: 100%;
+    height: auto;
+
+}
+
+.ubRow1 {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.likeDisplay {
+    padding-right: 10px;
+}
+
+.ubRow2 {
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.btn {
+    background-color: goldenrod;
+    box-shadow: 4px 4px #333;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.userID {
+    border-style: solid;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    width: 100%;
+
+}
+
+.profilePhoto {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    border: solid;
+}
+
+.col1 {
+    height: 100%;
+    flex:1;
+    align-items: center;
+}
+
+.col2 {
+    flex: 5;
+    flex-direction: column;
+    gap:20px;
+    width: auto;
+}
+
+.post {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.webPage {
+    justify-content: space-between;
+    gap:40px;
+}
+
+.userPhoto {
+    border-radius: 50%;
+    border-style: solid;
+    margin-top: 7px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+}

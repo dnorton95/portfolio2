@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navBar">
+            <h1>Network</h1>
+        </div>
+        <div class="feedTitle">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="webPage d-flex">
+            <div class="col1 d-flex">
+                <div class="userID">
+                    <div class="image">
+                        <img class="profilePhoto" src="profilePhoto.png" alt="profile photo">
+                    </div>
+                    <div class="changeImage">
+                        <a href="index.html">Add an avatar</a>
+                    </div>
+                    <div class="name">
+                        <h3>Daniel Ketterer</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col2 d-flex">
+                <div class="post d-flex">
+                    <div class="userBox border">
+                        <div class="ubRow1 d-flex">
+                            <div class="userName d-flex">
+                                <img class="userPhoto" src="neil.png" alt="user-photo">
+                                <h3>Neil M</h3>
+                            </div>
+                            <div class="like-likes d-flex">
+                                <p class="likeDisplay1">0 ninjas have liked this post</p>
+                                <button onclick="likeIncrease1()" class="likeButton1 btn">Like</button>
+                            </div>
+                        </div>
+                        <div class="ubRow2 d-flex">
+                            <p>Just got back from happy hour with the work friends! We went to <a href="https://www.milltownarmstavern.com/">Milltown Tavern</a> my favorite dive bar in Atlanta! </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post d-flex">
+                    <div class="userBox border">
+                        <div class="ubRow1 d-flex">
+                            <div class="userName d-flex">
+                                <img src="nichole.png" alt="user-photo" class="userPhoto">
+                                <h3>Nichole K</h3>
+                            </div>
+                            <div class="like-likes d-flex">
+                                <p class="likeDisplay2">0 ninjas have liked this post</p>
+                                <button onclick="likeIncrease2()" class="likeButton2 btn">Like</button>
+                            </div>
+                        </div>
+                        <div class="ubRow2 d-flex">
+                            <p>Just finished reading <a href="https://www.goodreads.com/book/show/22284.Diary">Diary</a> by Chuck Palahniuk! The perfect mix of dread and horror... read, if you dare!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post d-flex">
+                    <div class="userBox border">
+                        <div class="ubRow1 d-flex">
+                            <div class="userName d-flex">
+                                <img src="jim.png" alt="user-photo" class="userPhoto">
+                                <h3>Jim R</h3>
+                            </div>
+                            <div class="like-likes d-flex">
+                                <p class="likeDisplay3">0 ninjas have liked this post</p>
+                                <button onclick="likeIncrease3()" class="likeButton3 btn">Like</button>
+                            </div>
+                        </div>
+                        <div class="ubRow2 d-flex">
+                            <p>I can't stop listening to <a href="https://music.youtube.com/playlist?list=OLAK5uy_nNFqQXE4m3SQBTXYhwmMmBDDMXk_bKqco">Choose Your Weapon by Hiatus Kaiyote</a>! Give it a listen!</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

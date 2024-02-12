@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="pageTitle">
+            <h1>DojoWeather</h1>
+        </div>
+        <div class="navBar">
+            <ul class="links" onclick="weatherAlert()">
+                <a class="grow" href="index.html">Burbank</a>
+                <a class="grow" href="index.html">Chicago</a>
+                <a class="grow" href="index.html">Dallas</a>
+            </ul>
+        </div>
+    </header>
+    <div class="webPage">
+        <header class="header2 d-flex">
+            <div class="city">
+                <h2>San Jose</h2>
+            </div>
+            <div class="tempCtrl d-flex">
+                <p>show temperature in:</p>
+                <select onchange="convert()" name="measurement" id="measurement">
+                    <option value="Celcius">C</option>
+                    <option value="Fahrenheit">F</option>
+                </select>
+            </div>
+        </header>
+        <div class="widgetContainer d-flex">
+            <div class="widget">
+                <div class="dailyUpdate inline">
+                    <h3>Today</h3>
+                    <img class="widgetIcons grow" src="assets/some_rain.png">
+                    <p>some rain</p>
+                </div>
+                <div class="tempDisplay">
+                    <div class="dailyTemp d-flex">
+                        <h3 class="high temp">24</h3>
+                        <h3 class="low temp">18</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="widget">
+                <div class="dailyUpdate inline">
+                    <h3>Tomorrow</h3>
+                    <img class="widgetIcons grow" src="assets/some_sun.png">
+                    <p>some rain</p>
+                </div>
+                <div class="tempDisplay">
+                    <div class="dailyTemp d-flex">
+                        <h3 class="high temp">27</h3>
+                        <h3 class="low temp">19</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="widget">
+                <div class="dailyUpdate inline">
+                    <h3>Friday</h3>
+                    <img class="widgetIcons grow" src="assets/some_clouds.png">
+                    <p>some rain</p>
+                </div>
+                <div class="tempDisplay">
+                    <div class="dailyTemp d-flex">
+                        <h3 class="high temp">21</h3>
+                        <h3 class="low temp">16</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="widget">
+                <div class="dailyUpdate inline">
+                    <h3>Saturday</h3>
+                    <img class="widgetIcons grow" src="assets/some_sun.png">
+                    <p>some rain</p>
+                </div>
+                <div class="tempDisplay">
+                    <div class="dailyTemp d-flex">
+                        <h3 class="high temp">26</h3>
+                        <h3 class="low temp">21</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="cookie-alert" class="cookie-alert grow">
+                <div class="cookie-content">
+                    <div class="cookieBox">
+                        <img src="assets/cookie.png" alt="Cookie Image">
+                    </div>
+                    <div class="cookieBox">
+                        <h1>STOP! Cookie Time!</h1>
+                        <p>This website uses cookies to enhance the user experience. Do you consent?</p>
+                    </div>
+                    <div class="cookieBox">
+                        <button id="agree-button" onclick="removeCookie()">Agree</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
