@@ -238,6 +238,8 @@ h2 {
     .photoAlbum {
         margin-top: -50px;
         height: auto;
+        justify-content: center;
+        align-items: center;
     }
     .picture {
         max-height: 270px;
@@ -283,6 +285,8 @@ h2 {
         font-size: 80px;
     }
     .photoAlbum {
+        justify-content: center;
+        align-items: center;
         height: 500px;
     }
     .picture {

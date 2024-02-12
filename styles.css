@@ -81,8 +81,8 @@ h1 {
 h2 {
     animation: fadeInAnimation ease-in 1s;
     animation-iteration-count: 1;
-    font-size:200%;
-
+    font-size:50px;
+    margin-top: -17px;
 }
   
 
@@ -203,6 +203,7 @@ h2 {
 
     h2 {
         font-size: 30px;
+        margin-top:20px;
         margin-bottom: -30px;
     }
 
@@ -267,8 +268,9 @@ h2 {
         font-size: 150%;
     }
 
-    h2.name {
-        font-size: 12px;
+    h2 {
+        font-size: 30px;
+        margin-top: 20px;
     }
 
     .intro {
