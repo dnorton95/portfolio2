@@ -8,15 +8,15 @@ const alertMessage = document.getElementById('alertMessage');
 const closeAlertButton = document.getElementById('closeAlert');
 
 // Add event listeners for click on each image
-haydenImage.addEventListener('click', function() {
+haydenImage.addEventListener('click', function () {
     showAlert('Hayden is an excellent builder! They know that all buildings are just small boxes built into big boxes!');
 });
 
-chrisImage.addEventListener('click', function() {
+chrisImage.addEventListener('click', function () {
     showAlert('Chris is the best painter and interior designer in town! But... because of Chris is so good at their job, they need extra special instructions so that they can know exactly what you want them to do!');
 });
 
-jesseImage.addEventListener('click', function() {
+jesseImage.addEventListener('click', function () {
     showAlert('Jesse is very smart and can make anything that Hayden and Chris create into a something that actually works!');
 });
 
@@ -27,7 +27,7 @@ function showAlert(message) {
 }
 
 // Close the custom alert when the close button is clicked
-closeAlertButton.addEventListener('click', function() {
+closeAlertButton.addEventListener('click', function () {
     customAlert.style.display = 'none';
 });
 
@@ -58,3 +58,30 @@ function showImage() {
     imageContainer.innerHTML = "<img src='" + imagePath + "' alt='" + inputText + "'>";
 }
 // room selector
+
+function checkProtection() {
+    var protection = document.querySelector('input[name="protection"]:checked');
+
+    if (!protection) {
+        alert("Please select an option.");
+        return;
+    }
+
+    if (protection.value === "pepto" || protection.value === "putin") {
+        alert("Oh boy... Well, some people just don't know how to use deductive reasoning, and that's okay too I guess. But you're definitely very wrong!");
+    } else if (protection.value === "padding") {
+        alert("CorrectoMundo dude!");
+    }
+}
+
+
+const boxes = document.querySelectorAll('.boxcontainer');
+const marginSelector = document.getElementById('marginSelector');
+
+marginSelector.addEventListener('change', function(event) {
+    const selectedMargin = event.target.value;
+    boxes.forEach(box => {
+        box.style.margin = `${selectedMargin}px`;
+    });
+});
+
