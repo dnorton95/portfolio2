@@ -59,20 +59,28 @@ function showImage() {
 }
 // room selector
 
-function checkProtection() {
-    var protection = document.querySelector('input[name="protection"]:checked');
 
-    if (!protection) {
-        alert("Please select an option.");
-        return;
-    }
+const pepto = document.getElementById('peptoRadio');
+const putin = document.getElementById('putinRadio');
+const padding = document.getElementById('paddingRadio');
 
-    if (protection.value === "pepto" || protection.value === "putin") {
-        alert("Oh boy... Well, some people just don't know how to use deductive reasoning, and that's okay too I guess. But you're definitely very wrong!");
-    } else if (protection.value === "padding") {
-        alert("CorrectoMundo dude!");
-    }
-}
+// Get reference to custom alert elements
+const customAlert2 = document.getElementById('customAlert2');
+const alertMessage2 = document.getElementById('alertMessage2');
+const closeAlertButton2 = document.getElementById('closeAlert2');
+
+// Add event listeners for click on each image
+pepto.addEventListener('click', function () {
+    showAlert('Woah, that might be fun to look at, but I dont think grandmas bust is gonna survive that drive');
+});
+
+putin.addEventListener('click', function () {
+    showAlert('This is not the way to mitigate risk...');
+});
+
+padding.addEventListener('click', function () {
+    showAlert('If you resisted the urge to click the other ones, congratulations you wont be getting cancelled this year, AND you were right!');
+});
 
 
 const boxes = document.querySelectorAll('.boxcontainer');
