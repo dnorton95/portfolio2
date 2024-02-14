@@ -71,6 +71,10 @@ body {
 }
 
 .article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: wheat;
     border-radius: 20px;
     padding: 10%;
@@ -314,7 +318,7 @@ body {
     font-size: 14px;
 }
 
-.magicBtn {
+#magicBtnLivingRoom {
     border-style: double;
     border-radius: 15px;
     padding: 5px;
@@ -323,4 +327,60 @@ body {
     border-color: orangered;
     background-color: orange;
     color: navy;
+}
+
+#magicBtnKitchen {
+    border-style: double;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    display: grid 2 2;
+    border-color: orangered;
+    background-color: orange;
+    color: navy;
+}
+
+#magicBtnBathroom {
+    border-style: double;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    display: grid 2 2;
+    border-color: orangered;
+    background-color: orange;
+    color: navy;
+}
+#magicBtnBedRoom {
+    border-style: double;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    display: grid 2 2;
+    border-color: orangered;
+    background-color: orange;
+    color: navy;
+}
+
+#magicBtnHouse {
+    border-style: double;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    display: grid 2 2;
+    border-color: orangered;
+    background-color: orange;
+    color: navy;
+}
+
+#roomImage2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#roomImage2 img{
+    height:200px;
+    width: auto;
+
 }

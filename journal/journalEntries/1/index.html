@@ -144,7 +144,7 @@
                 <input type="radio" id="margin-30" name="margin" value="-30">
                 <label for="margin20">-30px</label><br>
             </form>
-            <p>Choose the amount of pixels you want to surround the box!</p>
+            <p>Choose the amount of margin (in pixels) you want to surround the box!</p>
         </div>
     </div>
     <div class="container">
@@ -153,10 +153,16 @@
                 <p>Just like that, you're a padding and margin expert! Okay, let's get out of this moving box metaphor and back into our house!</p>
                 <p>Chris speaks a very different language than we do, and with some time and practice you can learn it! But I'm just trying to show you what Chris can do, you'll have to learn to speak to them on your own time!</p>
                 <p>Let's ask Chris to put some <strong>padding, margin, borders,</strong> and <strong>colors</strong> on the bones of our house!</p>
-                <button class="magicBtn grow2" onclick="alert('Sorry! I ran out of time, I promise to make this function work later!')">Chris, design our living room!</button>
-                <button class="magicBtn grow2" onclick="alert('Sorry! I ran out of time, I promise to make this function work later!')">Chris, design our kitchen!</button>
-                <button class="magicBtn grow2" onclick="alert('Sorry! I ran out of time, I promise to make this function work later!')">Chris, design our bedroom!</button>
-                <button class="magicBtn grow2" onclick="alert('Sorry! I ran out of time, I promise to make this function work later!')">Chris, design our bathroom!</button>
+                <button onclick="showImage2('livingroom')" id="magicBtnLivingRoom">Chris, design our living room!</button>
+                <button onclick="showImage2('kitchen')"id="magicBtnKitchen">Chris, design our kitchen!</button>
+                <button onclick="showImage2('bedroom')"id="magicBtnBedRoom">Chris, design our bedroom!</button>
+                <button onclick="showImage2('bathroom')"id="magicBtnBathroom">Chris, design our bathroom!</button>
+                <button onclick="showImage2('house')"id="magicBtnHouse">Chris, design our WHOLE ENTIRE house!!!</button>
+                <div id="roomImage2"></div>
+            </div>
+            <div class="article">
+                <p>And just like that, Chris works for you now! They're a lot of fun to boss around, so when you get the time, give it a shot! Now, the moment we've all been waiting for *drumrollllllllllllllllll*</p>
+                <h2 class="articleTitle">JavaScript!!</h2>
             </div>
     </div>
     
@@ -166,24 +172,3 @@
 </body>
 
 </html>
-
-
-<div class="bedroom">
-    <div class="walls">
-        <div class="floor">
-            <div class="sideTable">
-                <div class="lamp"></div>
-            </div>
-            <div class="bed">
-                <div class="sheet">
-                    <div class="pillow"></div>
-                    <div class="pillow"></div>
-                </div>
-                <div class="duvet"></div>
-            </div>
-            <div class="sideTable">
-                <div class="lamp"></div>
-            </div>
-        </div>
-    </div>
-</div>

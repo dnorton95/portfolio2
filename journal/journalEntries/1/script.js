@@ -85,3 +85,32 @@ marginSelector.addEventListener('change', function(event) {
     });
 });
 
+
+function showImage2(roomType) {
+    var imageContainer = document.getElementById("roomImage2");
+    var imagePath = "";
+
+    switch (roomType) {
+        case "kitchen":
+            imagePath = "assets/kitchen.jpg"
+            break;
+        case "livingroom":
+            imagePath = "assets/living_room.jpg";
+            break;
+        case "bathroom":
+            imagePath = "assets/bathroom.jpg";
+            break;
+        case "bedroom":
+            imagePath = "assets/bedroom.jpg";
+            break;
+        case "house":
+            imagePath = "assets/house.png";
+            break;
+        default:
+            imageContainer.innerHTML = "Hmm, I'm not sure you're ready to build this yet! Let's try one of the choices from above first!";
+            return;
+    }
+
+    imageContainer.innerHTML = "<img src='" + imagePath + "' alt='" + roomType + "'>";
+}
+console.log(showImage2(roomType))
