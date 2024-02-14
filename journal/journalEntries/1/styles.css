@@ -282,6 +282,11 @@ body {
     width: auto;
 }
 
+.box2 {
+    height: 150px;
+    width: auto;
+}
+
 #protectionForm {
     text-indent: 0px;
     display: flex;
