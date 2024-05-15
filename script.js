@@ -20,4 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
+document.querySelector('.scroll-down-arrow').addEventListener('click', function() {
+    window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+    });
+});

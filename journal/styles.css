@@ -13,11 +13,28 @@
     src: url(fonts/Midway.otf);
 }
 
+.cert {
+    border-style: solid;
+    border-color: lightblue;
+    border-width: 5px;
+    border-radius: 15px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+}
 .grow { 
     transition: all .2s ease-in-out; 
     }
@@ -28,7 +45,20 @@ transform: scale(1.02);
 
 body {
     background-image: url(assets//orange.jpeg);
-    background-size: cover;
+    background-size: 120%;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    padding-left: 20%;
+    padding-right: 20%;
+    animation: fadeInAnimation ease-in 2s;
+    animation-iteration-count: 1;
+    font-family: intro;
 }
 
 .navbar {
